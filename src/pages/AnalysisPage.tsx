@@ -1,13 +1,13 @@
 import Navigation from "@/components/Navigation";
-import Dashboard from "@/components/Dashboard";
+import DraftAnalysis from "@/components/DraftAnalysis";
 
-const Index = () => {
+const AnalysisPage = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
-      <Dashboard />
+      <DraftAnalysis />
     </div>
   );
 };
 
-export default Index;
+export default AnalysisPage;

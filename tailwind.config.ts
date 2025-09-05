@@ -52,6 +52,27 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Government color scheme
+				government: {
+					orange: 'hsl(var(--gov-orange))',
+					'orange-foreground': 'hsl(var(--gov-orange-foreground))',
+					green: 'hsl(var(--gov-green))',
+					'green-foreground': 'hsl(var(--gov-green-foreground))',
+					'red-orange': 'hsl(var(--gov-red-orange))',
+					'red-orange-foreground': 'hsl(var(--gov-red-orange-foreground))'
+				},
+				// Sentiment colors for analytics
+				sentiment: {
+					positive: 'hsl(var(--sentiment-positive))',
+					negative: 'hsl(var(--sentiment-negative))',
+					neutral: 'hsl(var(--sentiment-neutral))'
+				},
+				// Chart colors
+				chart: {
+					primary: 'hsl(var(--chart-primary))',
+					secondary: 'hsl(var(--chart-secondary))',
+					accent: 'hsl(var(--chart-accent))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
