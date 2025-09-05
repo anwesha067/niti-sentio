@@ -1,9 +1,11 @@
+import GovernmentHeader from "@/components/GovernmentHeader";
 import Navigation from "@/components/Navigation";
 import Dashboard from "@/components/Dashboard";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <GovernmentHeader />
       <Navigation />
       <Dashboard />
     </div>

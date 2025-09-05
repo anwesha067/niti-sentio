@@ -220,18 +220,24 @@ const Dashboard = () => {
                 <CardTitle>Quick Actions</CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
-                <Button className="w-full justify-start" variant="outline">
-                  <FileText className="w-4 h-4 mr-2" />
-                  Generate Report
-                </Button>
-                <Button className="w-full justify-start" variant="outline">
-                  <TrendingUp className="w-4 h-4 mr-2" />
-                  Export Analytics
-                </Button>
-                <Button className="w-full justify-start" variant="outline">
-                  <MessageCircle className="w-4 h-4 mr-2" />
-                  Review Flagged Comments
-                </Button>
+                <Link to="/generate-report" className="w-full">
+                  <Button className="w-full justify-start" variant="outline">
+                    <FileText className="w-4 h-4 mr-2" />
+                    Generate Report
+                  </Button>
+                </Link>
+                <Link to="/export-analytics" className="w-full">
+                  <Button className="w-full justify-start" variant="outline">
+                    <TrendingUp className="w-4 h-4 mr-2" />
+                    Export Analytics
+                  </Button>
+                </Link>
+                <Link to="/review-flagged-comments" className="w-full">
+                  <Button className="w-full justify-start" variant="outline">
+                    <MessageCircle className="w-4 h-4 mr-2" />
+                    Review Flagged Comments
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
           </div>
